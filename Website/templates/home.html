@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+
+<div class="home_page">
+
+    <div class="desc">
+        <div>        
+            <h3>Hands-On Labs: Robotics</h3>
+            <h3>A Virtual Hands-On</h3>
+            <h3>Lab Experience</h3></div>
+        <div>
+            <p>Remotely Control A Robotic Arm To Execute Your Commands In Real Time Using Internet Of Things Technology</p>
+        </div>
+        <button type="button" class="btn btn-primary"><a style="color: white;" href="/features/robot">Get Started</a></button>
+    </div>
+
+    <div>
+
+        <img class="pic" src="{{ url_for('static', filename='images/arm.svg') }}" alt="robotic_arm">
+        
+
+
+    </div>
+
+</div>
+
+{% endblock %}

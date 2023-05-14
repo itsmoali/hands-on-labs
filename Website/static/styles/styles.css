@@ -1,0 +1,162 @@
+
+body{
+    height: 100vh;
+    background-color: #f5f5f5;
+    font-family: "Heebo", sans-serif;
+}
+
+@media only screen and (min-width: 768px) {
+.login-div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
+}
+
+.signup-div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.navbar-nav{
+    display: flex;
+    flex-grow: 1;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 19px;
+    font-weight: 350;
+}
+
+.navbar-nav li:nth-of-type(1){
+    margin-left: 15%;
+}
+
+.navbar-nav li:nth-of-type(6){
+    margin-left: auto;
+}
+
+.navbar-nav li:nth-of-type(7){
+    margin-right: 5%;
+}
+
+.navbar-nav li{
+    padding: 10px 20px;
+}
+
+.navbar-brand{
+    font-size: 25px;
+    font-weight: 600;
+    margin-left: 1%;
+}
+
+.desc{
+    width: 30%;
+    padding-left: 5%;
+}
+
+.home_page{
+
+    display: flex;
+    flex-direction: row;
+    height: 88.6%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.pic{
+    height: 500px;
+    width: 500px;
+}
+
+.video_feed{
+    height: 500px;
+    width: 500px;
+    text-align: center;
+
+    border-radius: 10px;
+
+}
+.vid{
+    width: 500px;
+    height: 450px;
+}
+
+
+
+.panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    background-color: rgb(230, 230, 216);
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 25px;
+    
+  }
+  
+.buttons_group {
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+  }
+  
+
+.logs{
+    background-color: rgb(230, 230, 216);
+    min-width: 10%;
+    height: 400px;
+    border-radius: 10px;
+    margin-left: 150px;
+    text-align: center;
+    font-weight: 600;
+    overflow: auto;
+
+}
+
+.robot-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}}
+
+
+/* Styles for mobile screenports */
+
+@media (max-width: 990px) {
+    .navbar-nav {
+        flex-direction: column;
+    }
+    
+    .navbar-nav li {
+        padding: 10px 0;
+    }
+    
+    .navbar-nav li:nth-of-type(1) {
+        margin-left: 0;
+    }
+    
+    .navbar-nav li:nth-of-type(6) {
+        margin-left: 0;
+    }
+    
+    .navbar-nav li:nth-of-type(7) {
+        margin-right: 0;
+    }
+    }

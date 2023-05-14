@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+
+<div class="main-content">
+    
+    <div class="robot-main">
+        <div class="video_feed">
+            
+            <h1>Robot Video Feed</h1>
+            <iframe class="vid" src="https://www.youtube.com/embed/cF8NTN0WJ5Y"></iframe>
+        </div>
+        <div class="panel">
+            <div>
+                <button type="button" onclick="showcommand('Up')" class="btn btn-primary"><a style="color: white; ">Up</a></button>
+            </div>
+            <br>
+            <div class="buttons_group">
+                <button type="button" onclick="showcommand('Left')" class="btn btn-primary"><a style="color: white;">Left</a></button>
+                <button type="button" onclick="showcommand('Down')" class="btn btn-primary"><a style="color: white;">Down</a></button>
+                <button type="button" onclick="showcommand('Right')" class="btn btn-primary"><a style="color: white;">Right</a></button>
+            </div>
+        </div>
+    </div>
+    <div id="contentDiv" class="logs">Command History</div>
+</div>
+{% endblock content %}
